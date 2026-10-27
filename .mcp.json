@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "octane": {
+      "type": "http",
+      "url": "https://store.getoctane.ai/mcp"
+    }
+  }
+}
