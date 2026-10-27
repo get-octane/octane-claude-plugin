@@ -1,4 +1,4 @@
-# Octane Store Review for Claude
+# Octane for Claude
 
 Review a convenience store's daily performance, important inventory exceptions,
 invoice blockers and supported cost increases with evidence from your Octane
