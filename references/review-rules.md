@@ -56,8 +56,8 @@ Check MCP `isError` before interpreting either structured or text content as a
 successful result. On authorization failure (`401`, `403`, or `access_denied`),
 stop the affected calls and explain the need to reconnect
 the intended Octane account or have an administrator review access. On an expired
-connection, direct the user to the connector's Connect/Reconnect control (Claude
-Code: `/mcp`), then fetch account context again. For `invalid_request`, correct only
+connection, direct the user to the Octane connector's Connect/Reconnect control in
+their app, then fetch account context again. For `invalid_request`, correct only
 the offending arguments using the schema and the user's intent. For
 `data_unavailable` or `temporarily_unavailable`, name the affected gap. On a network
 failure, report that
